@@ -715,8 +715,8 @@ svg{
 /* image logo */
 
 .img-cont{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     overflow: hidden;
     position: relative;
 }
