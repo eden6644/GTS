@@ -50,3 +50,14 @@ window.addEventListener('scroll', function(){
   progressIndicator.style.width = progress + '%';
 })
 //fin scroll bar
+
+
+//removing loader
+window.addEventListener("load", () =>{
+  const loader = document.querySelector(".loader_content");
+  loader.classList.add("loader_content-hidden");
+
+  loader.addEventListener("transitionend", () =>{
+      document.body.removeChild("loader_content");
+  })
+})
